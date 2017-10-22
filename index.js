@@ -10,7 +10,7 @@ function largestSubarraySum(array){
     if(max < currentMax){
       max = currentMax
     }
-    if(currentMax < 0){
+    if(currentMax <= 0){
       currentMax = 0
     }
   }
